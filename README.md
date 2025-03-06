@@ -21,3 +21,11 @@ ToDo:
   - add mode to rename files with non-utf-7 characters
   - add detailed setup guide
   - add GH action to automatically build and push to GHCR
+
+---
+
+Folders:
+/data
+/scan
+  /accepted
+  /rejected
