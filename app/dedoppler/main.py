@@ -4,6 +4,8 @@ import db
 
 # 1. create folders
 move.create_folders()
+# 1b. search for CSV, import to DB
+...
 # 2. search in 'data' for new & removed files, update DB
 file_dict_list = scan.quick_scan('/workspaces/hiduch/app/test files/data')
 list_of_paths_in_db = db.get_all_paths() # ToDo: re-add string before each path
